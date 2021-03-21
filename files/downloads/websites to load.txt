@@ -1,9 +1,0 @@
-Chrome Extension
-
-https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig?hl=en-US
-
-Sites:
-
-http://www.nytimes.com/2016/03/02/upshot/donald-drumpf-is-beating-rubio-and-cruz-for-second-in-web-searches.html
-http://edition.cnn.com/2013/08/12/travel/china-watchtowers-kaiping-diaolou/
-http://www.scmp.com/news/china/policies-politics/article/1919577/china-rebukes-moodys-after-it-cuts-nations-debt-outlook
