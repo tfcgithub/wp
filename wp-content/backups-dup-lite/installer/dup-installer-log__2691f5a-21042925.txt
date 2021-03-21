@@ -1,0 +1,711 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 05:13:52
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.16                                |7.4.16
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-03-21 04:29:25
+WP VERSION__________: 5.5.3
+DUP VERSION_________: 1.4.0
+DB__________________: 10.4.18
+DB TABLES___________: 42
+DB ROWS_____________: 16,750
+DB FILE SIZE________: 19.78MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.16 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: nginx/1.19.7
+DOC ROOT____________: "/var/www/dev2.tipsforchina.com/htdocs"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://dev2.tipsforchina.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/dev2.tipsforchina.com/htdocs/20210320_tipsforchina_[HASH]_20210321042925_archive.zip"
+SIZE________________: 118.64MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+- PASS: Existing WordFence '.user.ini' was removed
+
+STEP-1 COMPLETE @ 05:13:59 - RUNTIME: 7.1532 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 05:15:35
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.18 -- Build Server: 10.4.18
+FILE SIZE:	dup-database__[HASH].sql (11.35MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/dev2.tipsforchina.com/htdocs/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	383
+
+wp_comment_notifier: (5)
+wp_commentmeta: (3)
+wp_comments: (160)
+wp_duplicator_packages: (0)
+wp_ewwwio_images: (259)
+wp_ewwwio_queue: (0)
+wp_fbv: (0)
+wp_hfcm_scripts: (1)
+wp_lhr_log: (66)
+wp_links: (0)
+wp_odb_logs: (0)
+wp_options: (332)
+wp_postmeta: (1376)
+wp_posts: (576)
+wp_subscribe_reloaded_subscribers: (1)
+wp_term_relationships: (73)
+wp_term_taxonomy: (26)
+wp_termmeta: (2)
+wp_terms: (26)
+wp_usermeta: (47)
+wp_users: (1)
+wp_wfblockediplog: (0)
+wp_wfblocks7: (0)
+wp_wfconfig: (269)
+wp_wfcrawlers: (0)
+wp_wffilechanges: (0)
+wp_wffilemods: (6646)
+wp_wfhits: (1)
+wp_wfhoover: (0)
+wp_wfissues: (10)
+wp_wfknownfilelist: (6647)
+wp_wflivetraffichuman: (0)
+wp_wflocs: (2)
+wp_wflogins: (14)
+wp_wfls_2fa_secrets: (0)
+wp_wfls_settings: (19)
+wp_wfnotifications: (4)
+wp_wfpendingissues: (4)
+wp_wfreversecache: (1)
+wp_wfsnipcache: (0)
+wp_wfstatus: (1124)
+wp_wftrafficrates: (0)
+Removed '5' cache/transient rows
+
+INSERT DATA RUNTIME: 3.4435 sec.
+STEP-2 COMPLETE @ 05:15:39 - RUNTIME: 3.4563 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 05:15:57
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Tips for China 2"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/dev.tipsforchina.com/htdocs"
+path_new______________: "/var/www/dev2.tipsforchina.com/htdocs"
+siteurl_______________: "https://dev2.tipsforchina.com"
+url_old_______________: "https://dev.tipsforchina.com"
+url_new_______________: "https://dev2.tipsforchina.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_comment_notifier"_____________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:   160][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ewwwio_images"________________________________[ROWS:   259][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_ewwwio_queue"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fbv"__________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_hfcm_scripts"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_lhr_log"______________________________________[ROWS:    66][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_odb_logs"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   332][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1376][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   576][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_subscribe_reloaded_subscribers"_______________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   269][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS:  6646][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS:  6647][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:  1124][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/dev.tipsforchina.com/htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  2:"\/var\/www\/dev.tipsforchina.com\/htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  3:"%2Fvar%2Fwww%2Fdev.tipsforchina.com%2Fhtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  4:"\var\www\dev.tipsforchina.com\htdocs" ============> "/var/www/dev2.tipsforchina.com/htdocs"
+	SEARCH  5:"\\var\\www\\dev.tipsforchina.com\\htdocs" ========> "\/var\/www\/dev2.tipsforchina.com\/htdocs"
+	SEARCH  6:"%5Cvar%5Cwww%5Cdev.tipsforchina.com%5Chtdocs" ====> "%2Fvar%2Fwww%2Fdev2.tipsforchina.com%2Fhtdocs"
+	SEARCH  7:"//dev.tipsforchina.com" ==========================> "//dev2.tipsforchina.com"
+	SEARCH  8:"\/\/dev.tipsforchina.com" ========================> "\/\/dev2.tipsforchina.com"
+	SEARCH  9:"%2F%2Fdev.tipsforchina.com" ======================> "%2F%2Fdev2.tipsforchina.com"
+	SEARCH 10:"http://dev2.tipsforchina.com" ====================> "https://dev2.tipsforchina.com"
+	SEARCH 11:"http:\/\/dev2.tipsforchina.com" ==================> "https:\/\/dev2.tipsforchina.com"
+	SEARCH 12:"http%3A%2F%2Fdev2.tipsforchina.com" ==============> "https%3A%2F%2Fdev2.tipsforchina.com"
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:42 	|	 Rows:17695 	|	 Cells:107443 
+UPDATED:	Tables:11 	|	 Rows:746 	|	 Cells:1004 
+ERRORS:		0 
+RUNTIME:	1.368600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 05:15:58 - RUNTIME: 1.4517 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================

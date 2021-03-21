@@ -1,0 +1,377 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+/*for author info at top or posts maybe not needed? 
+.entry-meta-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.entry-meta-info {
+    display: block;
+}
+*/
+
+.entry-header .entry-meta {
+	font-family: courier;
+}
+
+table, td, th {
+	border: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table tr {
+  border-bottom: 1px solid grey;
+  }
+
+table tr:first-child {
+  border-bottom: 3px solid #000;
+  }
+
+table tr:last-child {
+    border-bottom: none;
+  }
+
+/*style Editorskit highlighted text because EK stylesheet dequed.*/
+.has-inline-background {
+    padding: .12em 4px;
+    border-radius: 5px;
+}
+/*styles for EK group block link */
+.ek-linked-block a.editorskit-block-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+}
+.ek-linked-block {
+    position: relative!important;
+}
+
+/*style table subheadings*/
+.tablesub {
+    font-size: 80%;
+    color: #ff0000;
+	line-height: 1.2;
+	margin-bottom: 0px;
+}
+
+.wp-block-table table h3 {
+	margin-bottom: 5px;
+	font-size: 160%;
+	font-weight: bold;
+}
+
+.box {
+	border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+	width: 80%;
+	border-radius: 20px;
+}
+
+.tfcoffer {
+	border-radius: 20px;
+	background-color: #f5f5f5;
+	box-shadow: 0px 0px 4px 1px #d6d6d6;
+}
+
+.tfcoffer .wp-block-button a {
+	color: #fff;
+	background-color: #c8252c;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.tfcoffer .wp-block-button a:hover {
+	background-color: #dc4149;
+}
+
+.tfcofferwhite {
+	border-width: 2px;
+	border-color: #000;
+	border-style: solid;
+	border-radius: 20px;
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+
+.tfcinfobox {
+	background-color: #f5f5f5;
+}
+
+.tfcattnbox {
+	border-style: solid;
+}
+
+.tfcattnbox .wp-block-group__inner-container {
+    padding: 0px;
+}
+
+.tfcattnbox p {
+	padding: 0px 38px;
+}
+
+.tfcinfobox .wp-block-group__inner-container {
+	padding: 20px 40px;
+}
+
+.tfcinfobox p:last-child {
+	margin-bottom: 0px;
+}
+
+
+
+.blackborder4 {
+	border-width: 4px;
+	border-color: #000;
+	border-style: solid;
+	border-radius: 20px;
+}
+
+.botmargin5 {
+	margin-bottom: 5px;
+}
+
+.anchor:before { 
+	content: '';
+	display: block;
+	position: relative;
+	width: 0;
+	height: 60px;
+	margin-top: -60px 
+}
+
+body {
+	//font-size: 30px;
+}
+
+/* Make last sidebar widget sticky */
+@media (min-width: 991px) {
+	.site-content {
+ 		display: flex;
+ 	}
+	.inside-right-sidebar {
+ 		height: 100%;
+ 	}
+	.inside-right-sidebar aside:last-child {
+ 		position: -webkit-sticky;
+ 		position: sticky;
+ 		top: 70px;
+ 	}
+ }
+
+/* Sticky menu */
+.main-navigation {
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+}
+
+
+
+.footer-bar .custom-html-widget li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/*
+.sidebar .custom-html-widget li {
+    display: inline-block;
+    padding-right: 5px;
+}
+*/
+
+.sidebar .widget-title {
+	margin-bottom: 10px;
+}
+
+.socico {
+	width: 34px;
+    height: 34px;
+    display: inline-block;
+}
+
+.socico:hover svg {
+	fill: #000;
+}
+
+  
+/* Highlight active form field */
+      
+#respond input[type=text], input[type=email], textarea {
+  outline: none;
+}
+#respond input[type=text]:focus,
+	input[type=email]:focus, 
+	textarea:focus {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+.comment-form #author, .comment-form #email {
+    display: inline-block;
+}
+
+.comment-form #author {margin-right: 5px;}
+
+/* Style comment secton */
+.comment-content {
+    border: 0;
+    padding: 0px;
+}
+
+
+.comment .children {
+    margin-top: 0px;
+}
+
+.comment-body {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.depth-1.parent>.children {
+    border-bottom: 0;
+    
+}
+
+.bypostauthor > .comment-body {
+    background: #2b2b2b;
+    color: #fbfbfb;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+.comment-body .comment-meta {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.bypostauthor > .comment-body .comment-meta:after{
+    content: "Author's Comment";
+    font-size: 150%;
+	font-weight: bold;
+    float: right;
+    color: gold;
+    padding-right: 10px;
+}
+
+.bypostauthor > .comment-body blockquote {
+    border-left: 5px solid #fbfbfb;
+}
+
+.comment-body blockquote {
+    padding: 0px 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+	th,
+	td {
+		font-size: 14px;
+		padding: 2px;
+	}
+}
+
+/* Sidebar on bottom for tablets extra comment*/
+@media(max-width: 991px) {
+    .site-content {
+        flex-direction: column;
+    }
+	
+    .site-content .content-area, .right-sidebar #right-sidebar.sidebar  {
+        width: 100%;
+    }
+	
+	.inside-right-sidebar {
+        display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+    	align-items: center;
+	}
+    .inside-right-sidebar .widget {
+        flex-basis: 300px;
+		border-style: solid;
+		border-radius: 20px;
+    }
+	
+	.inside-right-sidebar .widget:last-child {
+		margin-bottom: 20px;
+	}
+	
+	/*.right-sidebar .site-content .content-area,
+    .right-sidebar .is-right-sidebar {
+        width: 100%;
+    }
+    .right-sidebar #main {
+        margin-right: 0;
+    }
+	
+	.widget-area .widget {
+    	padding: 40px;
+	}
+	*/
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media(max-width: 768px) {
+	.widget-area .widget {
+		padding: 30px;
+	}
+}
+
+@media(min-width: 990px) {
+    .content-area {
+        width: calc(100% - 300px);
+    }
+}
+
+.right-sidebar #right-sidebar {
+	width: 300px;
+}
+/*adjust size of social icons
+@media (max-width: 1115px) {
+	.socico {
+		width: 30px;
+		height: 30px;
+	}
+}
+@media (max-width: 1017px) {
+	.socico {
+		width: 24px;
+		height: 24px;
+	}
+}
+@media (max-width: 873px) {
+	.socico {
+		width: 18px;
+		height: 18px;
+	}
+}
+
+
+*/
+
+
+
