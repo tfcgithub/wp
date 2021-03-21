@@ -1,0 +1,328 @@
+siteurl:w:w
+home:w:w
+blogname:w:w
+blogdescription:w:w
+users_can_register:w:w
+admin_email:w:w
+start_of_week:w:w
+use_balanceTags:w:w
+use_smilies:w:w
+require_name_email:w:w
+comments_notify:w:w
+posts_per_rss:w:w
+rss_use_excerpt:w:w
+mailserver_url:w:w
+mailserver_login:w:w
+mailserver_pass:w:w
+mailserver_port:w:w
+default_category:w:w
+default_comment_status:w:w
+default_ping_status:w:w
+default_pingback_flag:w:w
+posts_per_page:w:w
+date_format:w:w
+time_format:w:w
+links_updated_date_format:w:w
+comment_moderation:w:w
+moderation_notify:w:w
+permalink_structure:w:w
+rewrite_rules:w:w
+hack_file:w:w
+blog_charset:w:w
+moderation_keys:w:w
+active_plugins:w:w
+category_base:w:w
+ping_sites:w:w
+comment_max_links:w:w
+gmt_offset:w:w
+default_email_category:w:w
+recently_edited:w:w
+template:w:w
+stylesheet:w:w
+comment_registration:w:w
+html_type:w:w
+use_trackback:w:w
+default_role:w:w
+db_version:w:w
+uploads_use_yearmonth_folders:w:w
+upload_path:w:w
+blog_public:w:w
+default_link_category:w:w
+show_on_front:w:w
+tag_base:w:w
+show_avatars:w:w
+avatar_rating:w:w
+upload_url_path:w:w
+thumbnail_size_w:w:w
+thumbnail_size_h:w:w
+thumbnail_crop:w:w
+medium_size_w:w:w
+medium_size_h:w:w
+avatar_default:w:w
+large_size_w:w:w
+large_size_h:w:w
+image_default_link_type:w:w
+image_default_size:w:w
+image_default_align:w:w
+close_comments_for_old_posts:w:w
+close_comments_days_old:w:w
+thread_comments:w:w
+thread_comments_depth:w:w
+page_comments:w:w
+comments_per_page:w:w
+default_comments_page:w:w
+comment_order:w:w
+sticky_posts:w:w
+widget_categories:w:w
+widget_text:w:w
+widget_rss:w:w
+uninstall_plugins:w:w
+timezone_string:w:w
+page_for_posts:w:w
+page_on_front:w:w
+default_post_format:w:w
+link_manager_enabled:w:w
+finished_splitting_shared_terms:w:w
+site_icon:w:w
+medium_large_size_w:w:w
+medium_large_size_h:w:w
+wp_page_for_privacy_policy:w:w
+show_comments_cookies_opt_in:w:w
+initial_db_version:w:w
+WPLANG:w:w
+widget_search:w:w
+widget_recent-posts:w:w
+widget_recent-comments:w:w
+widget_archives:w:w
+widget_meta:w:w
+sidebars_widgets:w:w
+cron:w:w
+widget_nav_menu:w:w
+recently_activated:w:w
+current_theme:w:w
+theme_switched:w:w
+can_compress_scripts:w:w
+aDBc_settings:advanced-database-cleaner-pro:p
+aDBc_security_folder_code:advanced-database-cleaner-pro:p
+ewww_image_optimizer_optipng_level:w:w
+ewww_image_optimizer_pngout_level:w:w
+shfs_insert_header:header-and-footer-scripts:p
+shfs_insert_footer:header-and-footer-scripts:p
+shfs_insert_header_priority:header-and-footer-scripts:p
+shfs_insert_footer_priority:header-and-footer-scripts:p
+sep_exclude:search-exclude:p
+UltimateBlocks_review_notify:ultimate-blocks:p
+ultimate_blocks:ultimate-blocks:p
+UltimateBlocks_installDate:ultimate-blocks:p
+fs_active_plugins:ultimate-blocks:p
+fs_debug_mode:ultimate-blocks:p
+fs_gdpr:ultimate-blocks:p
+ultimate_blocks_css_version:ultimate-blocks:p
+lyte_version:wp-youtube-lyte:p
+lyte_show_links:wp-youtube-lyte:p
+lyte_size:wp-youtube-lyte:p
+lyte_hidef:wp-youtube-lyte:p
+lyte_position:wp-youtube-lyte:p
+lyte_microdata:wp-youtube-lyte:p
+lyte_greedy:wp-youtube-lyte:p
+lyte_yt_api_key:wp-youtube-lyte:p
+lyte_local_thumb:wp-youtube-lyte:p
+lyte_disclaimer:wp-youtube-lyte:p
+lyte_cache_index:wp-youtube-lyte:p
+lyte_notification:wp-youtube-lyte:p
+lyte_emptycache:wp-youtube-lyte:p
+odb_rvg_excluded_tabs:rvg-optimize-database:p
+odb_rvg_options:rvg-optimize-database:p
+_uagb_blocks:ultimate-addons-for-gutenberg:p
+__uagb_do_redirect:ultimate-addons-for-gutenberg:p
+uagb-version:ultimate-addons-for-gutenberg:p
+generate_settings:gp-premium:p
+generate_package_backgrounds:gp-premium:p
+generate_package_menu_plus:gp-premium:p
+generate_menu_plus_settings:gp-premium:p
+generatepress_dynamic_css_data:gp-premium:p
+generate_package_blog:gp-premium:p
+generate_blog_settings:gp-premium:p
+generate_package_elements:gp-premium:p
+generate_package_disable_elements:gp-premium:p
+generate_package_spacing:gp-premium:p
+generate_spacing_settings:gp-premium:p
+generate_dynamic_css_output:gp-premium:p
+generate_dynamic_css_cached_version:gp-premium:p
+generate_package_colors:gp-premium:p
+generate_migration_settings:gp-premium:p
+gen_premium_license_key:gp-premium:p
+fresh_site:gp-premium:p
+gen_premium_license_key_status:gp-premium:p
+updraft_dropbox:updraftplus:p
+updraft_cloudfiles:updraftplus:p
+updraft_sftp:updraftplus:p
+updraft_webdav:updraftplus:p
+updraft_ftp:updraftplus:p
+updraft_s3:updraftplus:p
+updraft_googledrive:updraftplus:p
+updraftplus_dismisseddashnotice:updraftplus:p
+updraftplus_tour_cancelled_on:updraftplus:p
+updraftplus_version:updraftplus:p
+updraftplus-addons_siteid:updraftplus:p
+updraft_lastmessage:updraftplus:p
+updraft_last_backup:updraftplus:p
+updraft_backup_history:updraftplus:p
+updraft_onedrive:updraftplus:p
+updraft_azure:updraftplus:p
+updraft_googlecloud:updraftplus:p
+updraft_dreamobjects:updraftplus:p
+updraft_updraftvault:updraftplus:p
+updraft_backblaze:updraftplus:p
+updraft_s3generic:updraftplus:p
+updraft_openstack:updraftplus:p
+auto_update_plugins:updraftplus:p
+rt_wp_nginx_helper_options:nginx-helper:p
+duplicate_page_options:duplicate-page:p
+autoptimize_css:autoptimize:p
+autoptimize_css_defer:autoptimize:p
+autoptimize_css_defer_inline:autoptimize:p
+autoptimize_service_availablity:autoptimize:p
+autoptimize_ccss_version:autoptimize:p
+autoptimize_js:autoptimize:p
+autoptimize_css_include_inline:autoptimize:p
+autoptimize_html:autoptimize:p
+autoptimize_imgopt_launched:autoptimize:p
+autoptimize_cdn_url:autoptimize:p
+autoptimize_imgopt_settings:autoptimize:p
+autoptimize_js_include_inline:autoptimize:p
+autoptimize_enable_site_config:autoptimize:p
+autoptimize_version:autoptimize:p
+autoptimize_extra_settings:autoptimize:p
+autoptimize_css_exclude:autoptimize:p
+autoptimize_cache_fallback:autoptimize:p
+autoptimize_html_keepcomments:autoptimize:p
+autoptimize_js_aggregate:autoptimize:p
+autoptimize_js_exclude:autoptimize:p
+autoptimize_js_trycatch:autoptimize:p
+autoptimize_js_justhead:autoptimize:p
+autoptimize_js_forcehead:autoptimize:p
+autoptimize_css_aggregate:autoptimize:p
+autoptimize_css_justhead:autoptimize:p
+autoptimize_css_datauris:autoptimize:p
+autoptimize_css_inline:autoptimize:p
+autoptimize_cache_clean:autoptimize:p
+autoptimize_cache_nogzip:autoptimize:p
+autoptimize_optimize_logged:autoptimize:p
+autoptimize_optimize_checkout:autoptimize:p
+autoptimize_minify_excluded:autoptimize:p
+the_seo_framework_tested_upgrade_version:autodescription:p
+autodescription-updates-cache:autodescription:p
+autodescription-site-settings:autodescription:p
+the_seo_framework_initial_db_version:autodescription:p
+the_seo_framework_upgraded_db_version:autodescription:p
+tinypng_api_key:tiny-compress-images:p
+wordfenceActivated:wordfence:p
+wf_plugin_act_error:wordfence:p
+wordfence_version:wordfence:p
+wordfence_syncAttackDataAttempts:wordfence:p
+wordfence_syncingAttackData:wordfence:p
+wordfence_lastSyncAttackData:wordfence:p
+wordfence_installed:wordfence:p
+wordfence_case:wordfence:p
+bodhi_svgs_plugin_version:svg-support:p
+widget_pages:twentytwenty:t
+generate_db_version:generatepress:t
+recovery_keys:w:w
+widget_tag_cloud:w:w
+widget_calendar:w:w
+widget_custom_html:w:w
+new_admin_email:w:w
+recovery_mode_email_last_sent:w:w
+wp_user_roles:w:w
+disallowed_keys:w:w
+comment_previously_approved:w:w
+finished_updating_comment_type:w:w
+nav_menu_options:w:w
+theme_switched_via_customizer:w:w
+category_children:w:w
+customize_stashed_theme_mods:w:w
+admin_email_lifespan:w:w
+auto_plugin_theme_update_emails:w:w
+auto_core_update_notified:w:w
+db_upgraded:w:w
+widget_media_audio::w
+widget_media_image::w
+widget_media_gallery::w
+widget_media_video::w
+theme_mods_twentytwenty: (47.83%):w
+ct_svg_sets: (36.36%):w
+ct_style_sets: (38.46%):w
+theme_mods_generatepress: (45.83%):w
+generate_update_core_typography:gp-premium (58.06%):p
+theme_mods_generatepress_child: (36.67%):w
+widget_lsi_widget:gp-premium (47.06%):p
+nginx_cache_path: (37.5%):w
+nginx_auto_purge:nginx-helper (43.75%):p
+widget_wylwidget:generatepress (50%):t
+ewww_image_optimizer_relative_migration_status: (45.65%):w
+ewww_image_optimizer_background_optimization: (47.73%):w
+ewww_image_optimizer_noauto: (77.78%):w
+ewww_image_optimizer_disable_editor: (62.86%):w
+ewww_image_optimizer_debug: (88.46%):w
+ewww_image_optimizer_metadata_remove: (58.33%):w
+ewww_image_optimizer_jpg_level: (70%):w
+ewww_image_optimizer_png_level: (80%):w
+ewww_image_optimizer_gif_level: (70%):w
+ewww_image_optimizer_pdf_level: (73.33%):w
+ewww_image_optimizer_exactdn: (75%):w
+exactdn_all_the_things:o:o
+exactdn_lossy: (38.46%):w
+exactdn_exclude:o:o
+ewww_image_optimizer_lazy_load: (70%):w
+ewww_image_optimizer_ll_exclude: (67.74%):w
+ewww_image_optimizer_disable_pngout: (62.86%):w
+ewww_image_optimizer_webp_for_cdn: (63.64%):w
+ewww_image_optimizer_force_gif2webp: (60%):w
+ewww_image_optimizer_picture_webp: (66.67%):w
+ewww_image_optimizer_webp_rewrite_exclude: (51.22%):w
+exactdn_never_been_active:o:o
+ewww_image_optimizer_bulk_resume: (65.63%):w
+ewww_image_optimizer_aux_resume: (67.74%):w
+ewww_image_optimizer_flag_attachments: (56.76%):w
+ewww_image_optimizer_ngg_attachments: (58.33%):w
+ewww_image_optimizer_review_time: (65.63%):w
+ewww_image_optimizer_version: (75%):w
+ewww_image_optimizer_tracking_notice: (58.33%):w
+ewww_image_optimizer_enable_help_notice: (53.85%):w
+ewww_image_optimizer_aux_folders_completed: (50%):w
+ewww_image_optimizer_backup_files: (63.64%):w
+ewww_image_optimizer_dismiss_media_notice: (53.66%):w
+tinypng_sizes:tiny-compress-images (61.54%):p
+tinypng_preserve_data:tiny-compress-images (38.1%):p
+tinypng_status:tiny-compress-images (57.14%):p
+tinypng_paying_state:tiny-compress-images (40%):p
+tinypng_email_address:tiny-compress-images (38.1%):p
+updraftplus_unlocked_fd:updraftplus (91.3%):p
+updraftplus_last_lock_time_fd:updraftplus (93.1%):p
+updraftplus_semaphore_fd:updraftplus (91.67%):p
+updraft_last_scheduled_fd:updraftplus (92%):p
+tinypng_api_key_pending:tiny-compress-images (69.57%):p
+bsr_data: (37.5%):w
+editorskit_plugin_feedback_activation_date:block-options (61.9%):p
+edd_sl_3b37c9ae34f8ba623775dd0a9f2dfaba:o:o
+edd_sl_9b4b9278ab03eed62e9ded0113d4678e:o:o
+pand-d83e5fe4823f8f867dc30d3bb0b6c7de:o:o
+fs_accounts:ultimate-blocks (90.91%):p
+fs_api_cache:ultimate-blocks (58.33%):p
+editorskit_plugin_feedback_no_bug:block-options (78.79%):p
+wc_plugin_version:advanced-database-cleaner-pro (94.12%):p
+wc_hash_key: (81.82%):w
+wc_options:advanced-database-cleaner-pro (90%):p
+wpdiscuz_form_content_type_rel:o:o
+wpdiscuz_show_vote_regenerate_message:o:o
+wpdiscuz_show_closed_regenerate_message:o:o
+wpdiscuz_show_vote_data_regenerate_message:o:o
+wpdiscuz_show_sync_commenters_message:o:o
+wpdiscuz_wizard_completed:o:o
+wpdiscuz_wizard_after_update:o:o
+wc_deactivation_modal_never_show:o:o
+tinypng_compression_timing:o:o
+tinypng_remaining_credits:o:o
+tinypng_resize_original:o:o
+edd_sl_19d481f4e0899f71c4c1a98468e61165:o:o
